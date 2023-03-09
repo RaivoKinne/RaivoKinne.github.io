@@ -1,3 +1,64 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100px;
+}
+.navbar .menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1300px;
+}
+.navbar .menu .logo {
+  font-size: 2.5rem;
+}
+.navbar .menu .item {
+  display: flex;
+  gap: 15px;
+}
+.navbar .menu .item .link {
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  background-color: rgb(255, 255, 255);
+  padding: 0.5rem 1rem;
+  border: 2px solid black;
+  border-radius: 30px;
+  transition: 0.5s all;
+  color: rgb(0, 0, 0);
+}
+.navbar .menu .item .link:hover {
+  border: none;
+  scale: 1.2;
+  background-color: rgb(49, 138, 125);
+  color: rgb(255, 255, 255);
+}
 
+*, *::after, *::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  color-scheme: light dark;
+}
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+li, a {
+  text-decoration: none;
+  list-style: none;
+  color: inherit;
+}
+
+img, svg {
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
 
 /*# sourceMappingURL=main.css.map */
