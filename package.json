@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "build:css": "postcss src/style/style.css --dir dest",
+    "watch:css": "postcss src/style/style.css --dir dest -w"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",
