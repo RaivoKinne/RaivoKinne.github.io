@@ -1,5 +1,7 @@
 :root {
-  font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,'Fira Sans','Droid Sans','Helvetica Neue',sans-serif;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell,
+    Noto Sans, sans-serif, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   line-height: 1.5rem;
   font-weight: 400;
 }
@@ -43,16 +45,16 @@ body {
 }
 
 .logo .logo-one-text {
-    color: black;
-    font-size: 2rem;
-    font-weight: 600;
-  }
+  color: black;
+  font-size: 2rem;
+  font-weight: 600;
+}
 
 .logo .logo-two-text {
-    color: rgb(153, 128, 28);
-    font-size: 2rem;
-    font-weight: 600;
-  }
+  color: rgb(153, 128, 28);
+  font-size: 2rem;
+  font-weight: 600;
+}
 
 .contact-button {
   background-color: rgb(255, 255, 255);
@@ -69,15 +71,15 @@ body {
 }
 
 .contact-button:hover::after {
-    content: "";
-    margin-left: 0.5rem;
-    border: solid black;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 3px;
-    transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg);
-  }
+  content: "";
+  margin-left: 0.5rem;
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
 
 .hamburger-button {
   display: inline-block;
@@ -93,14 +95,14 @@ body {
 }
 
 .hamburger-button .line {
-    background-color: black;
-    width: 30px;
-    height: 5px;
-    margin: 5px 0;
-    border-radius: 5px;
-    transition: 0.5s;
-    transform-origin: 4% 60%;
-  }
+  background-color: black;
+  width: 30px;
+  height: 5px;
+  margin: 5px 0;
+  border-radius: 5px;
+  transition: 0.5s;
+  transform-origin: 4% 60%;
+}
 
 .hamburger-button:focus {
   outline: 0;
@@ -128,41 +130,41 @@ body {
 }
 
 .primary-navbar .menu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 80vh;
-    background-color: #ffffff;
-    position: relative;
-    transform: translateY(-100%);
-    transition: 0.5s ease-in;
-    z-index: 1;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80vh;
+  background-color: #ffffff;
+  position: relative;
+  transform: translateY(-100%);
+  transition: 0.5s ease-in;
+  z-index: 1;
+}
 
 .primary-navbar .menu .link-container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 100%;
-      gap: 2rem;
-    }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 2rem;
+}
 
 .primary-navbar .menu .link-container .link {
-        color: rgb(0, 0, 0);
-        -webkit-text-decoration: none;
-        text-decoration: none;
-        transition: 0.5s;
-      }
+  color: rgb(0, 0, 0);
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  transition: 0.5s;
+}
 
 .primary-navbar .menu .link-container .link:hover {
-          transform: scale(1.2);
-        }
+  transform: scale(1.2);
+}
 
 .primary-navbar .menu[data-visible="true"] {
-    transform: translateY(0%);
-    scale: 2;
-  }
+  transform: translateY(0%);
+  scale: 2;
+}
 
 .main-content {
   display: flex;
@@ -173,29 +175,29 @@ body {
 }
 
 .main-content .main-text-container {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    left: 6%;
-    top: 30%;
-  }
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 6%;
+  top: 30%;
+}
 
 .main-content .main-text-container .main-text {
-      font-size: 7rem;
-      font-weight: 600;
-    }
+  font-size: 7rem;
+  font-weight: 600;
+}
 
 .main-content .main-text-container .main-text .t-one {
-        color: rgb(151, 120, 35);
-      }
+  color: rgb(151, 120, 35);
+}
 
 .main-content .main-text-container .main-text-two {
-      font-size: 6rem;
-      position: absolute;
-      top: 20%;
-      font-weight: 400;
-      color: rgb(0, 0, 0);
-    }
+  font-size: 6rem;
+  position: absolute;
+  top: 20%;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+}
 
 .secondary-text-container {
   display: grid;
@@ -208,49 +210,49 @@ body {
 }
 
 .secondary-text-container .secondary-text {
-    font-weight: 600;
-    font-size: 1rem;
-  }
+  font-weight: 600;
+  font-size: 1rem;
+}
 
 .secondary-text-container .secondary-text-two {
-    font-size: 1.2rem;
-    font-weight: 500;
-    margin-bottom: 1rem;
-  }
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
 
 .secondary-text-container .seccondary-text-button {
-    background-color: rgb(255, 255, 255);
-    border: 2px solid black;
-    border-radius: 30px;
-    padding: 6px 16px;
-    color: rgb(0, 0, 0);
-    font-weight: 500;
-    cursor: pointer;
-  }
+  background-color: rgb(255, 255, 255);
+  border: 2px solid black;
+  border-radius: 30px;
+  padding: 6px 16px;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  cursor: pointer;
+}
 
 .secondary-text-container .one {
-    background-color: rgb(42, 42, 42);
-    color: white;
-  }
+  background-color: rgb(42, 42, 42);
+  color: white;
+}
 
 .secondary-text-container .one:hover::after {
-      content: "";
-      margin-left: 0.5rem;
-      border: solid rgb(255, 255, 255);
-      border-width: 0 3px 3px 0;
-      display: inline-block;
-      padding: 3px;
-      transform: rotate(-45deg);
-      -webkit-transform: rotate(-45deg);
-    }
+  content: "";
+  margin-left: 0.5rem;
+  border: solid rgb(255, 255, 255);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
 
 .secondary-text-container .two:hover::after {
-    content: "";
-      margin-left: 0.5rem;
-      border: solid rgb(0, 0, 0);
-      border-width: 0 3px 3px 0;
-      display: inline-block;
-      padding: 3px;
-      transform: rotate(-45deg);
-      -webkit-transform: rotate(-45deg);
-  }
+  content: "";
+  margin-left: 0.5rem;
+  border: solid rgb(0, 0, 0);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
