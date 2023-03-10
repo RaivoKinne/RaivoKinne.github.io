@@ -1,21 +1,31 @@
 {
-  "name": "app",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "name": "raivokinne.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "build:css": "postcss src/style/style.css --dir dest",
-    "watch:css": "postcss src/style/style.css --dir dest -w"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "postcss src/globals.css --dir public/dist",
+    "watch:css": "postcss src/globals.css --dir public/dist -w"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RaivoKinne/RaivoKinne.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RaivoKinne/RaivoKinne.github.io/issues"
+  },
+  "homepage": "https://github.com/RaivoKinne/RaivoKinne.github.io#readme",
   "devDependencies": {
     "autoprefixer": "^10.4.14",
+    "cssnano": "^5.1.15",
     "postcss": "^8.4.21",
     "postcss-cli": "^10.1.0",
-    "postcss-preset-env": "^8.0.1",
-    "tailwindcss": "^3.2.7",
-    "vite": "^4.1.0"
+    "postcss-custom-media": "^9.1.2",
+    "postcss-import": "^15.1.0",
+    "postcss-preset-env": "^8.0.1"
   }
 }
