@@ -1,17 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/public/dist/main.css">
     <title>Portfolio</title>
-    <script src="/src/js/script.js" type="module" defer></script>
 </head>
+
 <body>
-    <!-- logo -->
-    <header class="logo-container">
-        <h1 class="logo">Portfolio</h1>
+    <!-- navbar -->
+    <header class="navbar-container">
+        <a href="" class="logo">
+            <p class="logo-one-text">Raivo</p>
+            <p class="logo-two-text">Ķinne</p>
+        </a>
+        <nav class="primary-navbar">
+            <ul id="menu" class="menu" data-visible="false">
+                <div class="link-container">
+                    <a href="" class="link">Home</a>
+                    <a href="" class="link">About me</a>
+                    <a href="" class="link">Portfolio</a>
+                    <a href="" class="link">Contact</a>
+                </div>
+            </ul>
+        </nav>
+        <div>
+            <a href="/" class="contact-button">
+                Contact 
+            </a>
+            <button class="hamburger-button" aria-controls="menu" aria-expanded="false">
+                <div class="line bar1"></div>
+                <div class="line bar2"></div>
+                <div class="line bar3"></div>
+            </button>
+        </div>
     </header>
+    <script src="/src/js/script.js"></script>
 </body>
+
 </html>
