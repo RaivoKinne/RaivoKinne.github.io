@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:css": "postcss src/globals.css --dir public/dist",
-    "watch:css": "postcss src/globals.css --dir public/dist -w"
+    "build:css": "postcss src/style/main.css --dir public/dist",
+    "watch:css": "postcss src/style/main.css --dir public/dist -w"
   },
   "repository": {
     "type": "git",

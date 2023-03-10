@@ -5,7 +5,6 @@ module.exports = {
     require('postcss-preset-env')({
       stage:1
     }),
-    require("postcss-custom-media"),
-    require('cssnano')
+    require("postcss-custom-media")
   ],
 };
