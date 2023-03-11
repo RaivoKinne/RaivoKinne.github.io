@@ -61,14 +61,29 @@ a {
   z-index: 1;
 }
 
+.contact-button {
+  padding: 6px 16px;
+  position: absolute;
+  top: 5%;
+  right: 15%;
+  border-radius: 30px;
+  background-color: white;
+  border: 2px solid black;
+}
+
+.contact-button[data-visible="true"] {
+  opacity: 0;
+}
+
 .logo {
   position: absolute;
   z-index: 2;
-  color: rgb(132, 132, 132);
+  color: rgb(0, 0, 0);
   top: 0%;
   margin: 2rem;
   font-size: 2.5rem;
   transition: 0.5s all;
+  font-weight: 500;
 }
 
 .logo:hover {
@@ -88,7 +103,7 @@ a {
   position: fixed;
   right: 0%;
   top: 50%;
-  z-index: 1;
+  z-index: 2;
 }
 
 .menu-container {
@@ -101,10 +116,12 @@ a {
   background-color: white;
   border-radius: 10px 10px 10px 10px;
   margin: 15px 15px 15px;
+  z-index: 2;
 }
 
 .menu[data-visible="true"] {
   transform: translateY(-50%);
+  z-index: 2;
 }
 
 .nav-item {
@@ -169,12 +186,12 @@ a {
 
 .line {
   background-color: black;
-  width: 30px;
-  height: 3px;
+  width: 35px;
+  height: 6px;
   border-radius: 5px;
   margin: 6px 0;
   transition: 0.5s all;
-  transform-origin: 8% 60%;
+  transform-origin: 2% 70%;
 }
 
 .hamburger-icon[aria-expanded="true"] .bar1 {
@@ -193,9 +210,27 @@ a {
   align-items: center;
   width: 100%;
   height: 100%;
+  z-index: 0;
 }
 
 .intro {
-  font-size: 9rem;
+  font-size: 7rem;
   color: rgb(0, 0, 0);
+  position: absolute;
+  top: 25%;
+  left: 6%;
+  z-index: -1;
+
+}
+
+.intro span {
+  color: orange;
+}
+
+.intro-container h2 {
+  font-size: 6rem;
+  position: absolute;
+  top: 45%;
+  left: 5%;
+  z-index: -1;
 }
