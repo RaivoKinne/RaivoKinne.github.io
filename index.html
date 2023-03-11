@@ -2,62 +2,62 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/public/style/main.css">
-    <title>Portfolio</title>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/public/style/style.css">
+
+  <title>Portfolio</title>
 </head>
 
 <body>
-    <!-- intro -->
-    <main class="main-container">
-        <!-- navbar -->
-        <a href="" class="logo">
-            <p class="logo-one-text">Raivo</p>
-            <p class="logo-two-text">Ķinne</p>
-        </a>
-        <nav class="primary-navbar">
-            <ul id="menu" class="menu" data-visible="false">
-                <div class="link-container">
-                    <a href="" class="link">Home</a>
-                    <a href="" class="link">About me</a>
-                    <a href="" class="link">Portfolio</a>
-                </div>
-            </ul>
-        </nav>
-        <div>
-            <a href="/" class="contact-button">
-                Contact
-            </a>
-            <button class="hamburger-button" aria-controls="menu" aria-expanded="false">
-                <div class="line bar1"></div>
-                <div class="line bar2"></div>
-                <div class="line bar3"></div>
-            </button>
-        </div>
-        <!-- hero section -->
-        <section class="main-content">
-            <main class="main-text-container">
-                <h1 class="main-text"><span class="t-one">SOFTWARE</span><span class="t-two"></span> ENGINEER</h1>
-                <h2 class="main-text-two">& WEB DEVELOPER</h2>
-            </main>
-            <main class="secondary-text-container">
-                <div>
-                    <h1 class="secondary-text">FULL STACK DEVELOPER TRYING <br> TO LEFT MY DIGGITAL FOOTPRINT IN THIS BIG WORLD,<br> SO SOME
-                    DAY SOMONE WILL RECONIZE MY NAME</h1><br>
-                </div>
-                <div>
-                <h2 class="secondary-text-two">I'm trying to create succesful digital <br> presencs for innovetive startups and establisth buisneses <br> with my creative mind and cutting edge developnet tools </h2>
-                <button class="seccondary-text-button one">contact</button>
-                <button class="seccondary-text-button two">services</button>
-                </div>
-            </main>
-        </section>
-    </main>
-    <!-- About me section -->
+  <!-- navbar -->
+  <header class="navigation">
+    <nav class="navbar" id="primary-navigation">
+      <div class="nav-container">
+        <a href="/" class="logo"><span>Raivo</span> Ķinne</a>
+        <ul class="menu" data-visible="false">
+          <span class="menu-container">
+            <li class="nav-item item-one">
+              <span>
+              <a href="/" class="nav-links link-one">Home</a>
+              </span>
+            </li>
+            <li class="nav-item item-two">
+              <span>
+              <a href="/public/pages/about.html" class="nav-links link-two">About me</a>
+              </span>
+            </li>
+            <li class="nav-item item-three">
+              <span>
+              <a href="/public/pages/portfolio.html" class="nav-links link-three">Portfolio</a>
+              </span>
+            </li>
+            <li class="nav-item">
+              <span>
+              <a href="/public/pages/contact.html" class="nav-links link-four">Contact</a>
+              </span>
+            </li>
+          </span>
+        </ul>
+      </div>
+    </nav>
+    <div class="hamburger-icon" aria-expanded="false" aria-controls="primary-navigation">
+      <div class="line bar1"></div>
+      <div class="line bar2"></div>
+      <div class="line bar3"></div>
+    </div>
+  </header>
 
-    <script src="public/js/script.js"></script>
+  <!-- intro -->
+  <section class="intro-container">
+    <h1 class="intro"><span>FULL</span> STACK DEVELOPER</h1>
+    <div class="text-container">
+      <p class="text-one"></p>
+      <p class="text-two"></p>
+    </div>
+  </section>
+  <script type="module" src="/public/main.js"></script>
 </body>
 
 </html>
